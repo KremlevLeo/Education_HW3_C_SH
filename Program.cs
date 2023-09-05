@@ -82,11 +82,11 @@
                 Console.WriteLine("Аrea of the rectangle = " + Math.Round(height * width, 2));
                 return true;
             case "3":
-                Console.WriteLine("Enter side A: ");
+                Console.Write("Enter side A: ");
                 double sideA = double.Parse(Console.ReadLine());
-                Console.WriteLine("Enter side B: ");
+                Console.Write("Enter side B: ");
                 double sideB = double.Parse(Console.ReadLine());
-                Console.WriteLine("Enter side C: ");
+                Console.Write("Enter side C: ");
                 double sideC = double.Parse(Console.ReadLine());
                 height = (sideA + sideB + sideC) / 2;
                 double S = Math.Round(Math.Sqrt(height * (height - sideA) * (height - sideB) * (height - sideC)),2);
